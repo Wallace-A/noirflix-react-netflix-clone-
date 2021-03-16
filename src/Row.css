@@ -1,0 +1,17 @@
+.row_posters {
+    display: flex;
+}
+.row_poster{
+    /* contain keeps the aspect ration */
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    /* if size changes it transforms slowly (used by hover effect*/
+    transition: transform 450ms;
+}
+
+.row_poster:hover {
+    /* grow when mouse is over */
+    transform: scale(1.08);
+}
