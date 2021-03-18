@@ -73,7 +73,7 @@
     color: white;
 }
 .banner_button.list:hover {
-    background-color: rgba(53, 53, 53, 0.7);
+    background-color: rgba(65, 65, 65, 0.7);
     /* transition: all 0.2s; */
 }
 

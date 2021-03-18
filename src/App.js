@@ -14,15 +14,14 @@ function App() {
       <Banner/>
 
       {/* Rows */}
-      <Row title="NETFLIX ORIGINALS" fetchUrl = {requests.fetchNetflixOriginals}
+      <Row title="Netflix Detectives" fetchUrl = {requests.fetchNetflixDetectives}
       isLargeRow
       />
-      <Row title="Trending Now" fetchUrl = {requests.fetchTrending}/>
-      <Row title="Action Movies" fetchUrl = {requests.fetchActionMovies}/>
-      <Row title="Comedy Movies" fetchUrl = {requests.fetchComedyMovies}/>
-      <Row title="Horror Movied" fetchUrl = {requests.fetchHorrorMovies}/>
-      <Row title="Romance Movies" fetchUrl = {requests.fetchRomanceMovies}/>
-      <Row title="Documenatries" fetchUrl = {requests.fetchDocumentaries}/>
+      <Row title="Detective" fetchUrl = {requests.fetchDetective}/>
+      <Row title="Thrillers" fetchUrl = {requests.fetchThrillers}/>
+      <Row title="Crime" fetchUrl = {requests.fetchCrime}/>
+      <Row title="Mystery" fetchUrl = {requests.fetchMystery}/>
+      <Row title="True Crime" fetchUrl = {requests.fetchTrueCrime}/>
     </div>
     
 

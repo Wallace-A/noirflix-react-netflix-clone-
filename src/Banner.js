@@ -11,7 +11,7 @@ function Banner() {
     useEffect(() => {
         async function fetchData() {
             {/* fetch netflix originals to display one banner*/}
-            const request = await axios.get(requests.fetchNetflixOriginals);
+            const request = await axios.get(requests.fetchNetflixDetectives);
             setMovie(
                 request.data.results[
                     Math.floor(Math.random() * request.data.results.length - 1)
